@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    border-collapse: collapse;
+    font-size: 17px;
+    border: 2px rgb(66, 56, 16);
+    background-color: aliceblue;
+}
+td{
+    padding: 2px;
+    height: 25px;
+}
+th{
+    background-color: steelblue;
+    color: white;
+    height: 26px;
+}
+
+h3{
+    font-weight: 600;
+    color: steelblue;
+}
+
+.btn-edit{
+    border: 1px solid rgb(19, 114, 203);
+    background: rgb(19, 114, 203) url(images/edit.png) no-repeat 5px 4px ;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn-hapus{
+    border: 1px solid rgb(224, 169, 6) ;
+    background:rgb(224, 169, 6) url(images/hapus.png) no-repeat 5px 4px ;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
